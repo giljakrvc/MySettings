@@ -14,6 +14,7 @@
 		EF2031CB2367B57100991FD3 /* MySettings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF2031C92367B57100991FD3 /* MySettings.xcdatamodeld */; };
 		EF2031CD2367B57200991FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2031CC2367B57200991FD3 /* Assets.xcassets */; };
 		EF2031D02367B57200991FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2031CE2367B57200991FD3 /* LaunchScreen.storyboard */; };
+		EF2031D92367B93A00991FD3 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2031D82367B93A00991FD3 /* settings_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EF2031CC2367B57200991FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2031CF2367B57200991FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2031D12367B57200991FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2031D82367B93A00991FD3 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		EF2031B42367B57100991FD3 = {
 			isa = PBXGroup;
 			children = (
+				EF2031D72367B91100991FD3 /* Images */,
 				EF2031BF2367B57100991FD3 /* MySettings */,
 				EF2031BE2367B57100991FD3 /* Products */,
 			);
@@ -68,6 +71,14 @@
 				EF2031C92367B57100991FD3 /* MySettings.xcdatamodeld */,
 			);
 			path = MySettings;
+			sourceTree = "<group>";
+		};
+		EF2031D72367B91100991FD3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EF2031D82367B93A00991FD3 /* settings_icon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2031D02367B57200991FD3 /* LaunchScreen.storyboard in Resources */,
+				EF2031D92367B93A00991FD3 /* settings_icon.png in Resources */,
 				EF2031CD2367B57200991FD3 /* Assets.xcassets in Resources */,
 				EF2031C82367B57100991FD3 /* Main.storyboard in Resources */,
 			);
@@ -297,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MySettings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -314,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MySettings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
